@@ -1,0 +1,52 @@
++++
+title = "Major Scale Keyboard Diagrams"
+date = "2025-03-02"
++++
+
+## C major
+
+![C mjor](/Piano/images/C_major_grayscale.svg)
+
+# Db/C# major
+
+![Db major](/Piano/images/Db_major.svg)
+
+## D major
+
+![D major](/Piano/images/D_major.svg)
+
+## Eb major
+
+![Eb major](/Piano/images/Eb_major.svg)
+
+## E major
+
+![E major](/Piano/images/E_major.svg)
+
+## F major
+
+![F major](/Piano/images/F_major 1.svg)
+
+## F#/Gb Major
+
+![Gb major](/Piano/images/Gb_major.svg)
+
+## G major
+
+![G major](/Piano/images/G_major 1.svg)
+
+## Ab/G# major
+
+![Ab major](/Piano/images/Ab_major.svg)
+
+## A major
+
+![A major](/Piano/images/A_major.svg)
+
+## Bb major
+
+![Bb major](/Piano/images/Bb_major.svg)
+
+## B major
+
+![B major](/Piano/images/B_major.svg)
