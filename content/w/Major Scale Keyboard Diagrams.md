@@ -7,7 +7,7 @@ date = "2025-03-02"
 
 ![C mjor](/Piano/images/C_major_grayscale.svg)
 
-# Db/C# major
+## Db/C# major
 
 ![Db major](/Piano/images/Db_major.svg)
 
