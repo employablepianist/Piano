@@ -1,0 +1,29 @@
+name = "harmless"
+description = "Digital garden theme — blog, wiki, backlinks, and D3.js link graph"
+license = "MIT"
+homepage = "https://github.com/e4779/zola-harmless"
+min_version = "0.22.1"
+demo = "https://4779.ru"
+
+[extra]
+# Layout settings
+[extra.layout]
+# Use Tufte CSS — content at 55% width, margin notes at 35%
+tufte_css = true
+
+[extra.author]
+name = "Nick"
+email = "e@41q.ru"
+
+[extra.graph]
+# Enable D3.js graph on /graph/ page
+enabled = true
+
+[author]
+name = "Nick"
+homepage = "https://4779.ru"
+
+[original]
+author = "Nick"
+homepage = "https://4779.ru"
+repo = "https://gitverse.ru/e4779/4779_ru"

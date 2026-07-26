@@ -1,0 +1,3 @@
+{%- macro translate(key, default) -%}
+  {{- config.extra.translations[key] | default(value=default) -}}
+{%- endmacro translate -%}

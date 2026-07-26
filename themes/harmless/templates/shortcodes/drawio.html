@@ -1,0 +1,24 @@
+{#- drawio.html — embed draw.io diagram via mxgraph viewer.
+    Usage: {{/* drawio(url="/img/my-diagram.drawio", page=0) */}} -#}
+<div class="fullwidth">
+  <style>
+    @scope {
+      h1, h2, h3 {
+        margin: initial;
+      }
+    }
+  </style>
+  <div class="mxgraph"
+       style="max-width:100%;border:1px solid transparent;"
+       data-mxgraph='{
+         "highlight": "#0000ff",
+         "nav": true,
+         "resize": true,
+         "dark-mode": "auto",
+         "toolbar": "zoom layers tags lightbox",
+         "url": "{{ url }}",
+         "page": {{ page | default(value=0) }}
+       }'>
+  </div>
+  <script type="text/javascript" src="/js/viewer-static.min.js" defer></script>
+</div>

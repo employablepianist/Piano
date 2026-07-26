@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% import "macros/translate.html" as macros %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock %}
+
+{% block content %}
+<style>
+    @scope (.article-page) {
+        article { margin-bottom: 3rem; }
+        header { margin-bottom: 1.5rem; }
+        h1 { margin-bottom: 0.25rem; }
+        .meta { color: #888; font-size: 0.9em; }
+        time { font-family: ui-sans-serif, system-ui, sans-serif; }
+        details { margin-bottom: 1.5rem; font-size: 0.9em; }
+        summary { cursor: pointer; color: #555; }
+        details > ul { margin-top: 0.5rem; padding-left: 1.5rem; width: auto; }
+        footer { margin-top: 2rem; color: #888; font-size: 0.85em; }
+        footer nav { display: flex; justify-content: space-between; }
+    }
+</style>
+<div class="article-page">
+<article class="h-entry">
+
+    <header>
+        <h1 class="p-name">{{ page.title }}</h1>
+        <div class="meta">
+            <time class="dt-published" datetime="{{ page.date }}">
+                {{ page.date | date(format="%d.%m.%Y") }}
+            </time>
+            {% if page.reading_time %}
+            · {{ page.reading_time }} {{ macros::translate(key="reading_time", default="min read") }}
+            {% endif %}
+        </div>
+    </header>
+    {% include "shortcodes/backlinks.html" %}
+
+    {% if page.toc %}
+    <details>
+        <summary>{{ macros::translate(key="toc", default="Table of Contents") }}</summary>
+        <ul>
+            {% for h1 in page.toc %}
+            <li><a href="{{ h1.permalink }}">{{ h1.title }}</a>
+                {% if h1.children %}
+                <ul>
+                    {% for h2 in h1.children %}
+                    <li><a href="{{ h2.permalink }}">{{ h2.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </details>
+    {% endif %}
+
+    <div class="e-content">
+        {{ page.content | safe }}
+    </div>
+
+    <footer>
+        {% if page.earlier or page.later %}
+        <nav>
+            <span>{% if page.earlier %}<a href="{{ page.earlier.permalink }}">← {{ page.earlier.title }}</a>{% endif %}</span>
+            <span>{% if page.later %}<a href="{{ page.later.permalink }}">{{ page.later.title }} →</a>{% endif %}</span>
+        </nav>
+        {% endif %}
+    </footer>
+</article>
+</div>
+{% endblock %}

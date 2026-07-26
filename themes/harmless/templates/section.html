@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} — {{ config.title }}{% endblock %}
+
+{% block content %}
+<style>
+    @scope (.section-listing) {
+        article h3 a { color: inherit; }
+        article { margin: 0 0 1rem 0; }
+        h3 { margin: 2rem 0 0.3rem 0; }
+        time { display: block; }
+    }
+</style>
+<div class="section-listing">
+<h1>{{ section.title }}</h1>
+
+{{ section.content | safe }}
+
+{% for page in section.pages %}
+    <article>
+        <h3>
+            <a href="{{ page.permalink }}">{{ page.title }}</a>
+        </h3>
+        <time datetime="{{ page.date }}">
+            {{ page.date | date(format="%d.%m.%Y") }}
+        </time>
+    </article>
+{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% import "macros/translate.html" as macros %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock %}
+
+{% block content %}
+<style>
+    @scope (.wiki-page) {
+        article { margin-bottom: 3rem; }
+        header { margin-bottom: 1.5rem; }
+        h1 { margin-bottom: 0.25rem; }
+        .meta { color: #888; font-size: 0.9em; }
+        time { font-family: ui-sans-serif, system-ui, sans-serif; }
+        details { margin-bottom: 1.5rem; font-size: 0.9em; }
+        summary { cursor: pointer; color: #555; }
+        details > ul { margin-top: 0.5rem; padding-left: 1.5rem; width: auto; }
+    }
+</style>
+<div class="wiki-page">
+<article>
+
+    <header>
+        <h1>{{ page.title }}</h1>
+        <div class="meta">
+            <time datetime="{{ page.date }}">
+                {{ page.date | date(format="%d.%m.%Y") }}
+            </time>
+            {% if page.updated and page.updated != page.date %}
+            · {{ macros::translate(key="updated", default="updated") }} {{ page.updated | date(format="%d.%m.%Y") }}
+            {% endif %}
+            {% if page.reading_time %}
+            · {{ page.reading_time }} {{ macros::translate(key="reading_time", default="min read") }}
+            {% endif %}
+        </div>
+    </header>
+    {% include "shortcodes/backlinks.html" %}
+
+    {% if page.toc %}
+    <details>
+        <summary>{{ macros::translate(key="toc", default="Table of Contents") }}</summary>
+        <ul>
+            {% for h1 in page.toc %}
+            <li><a href="{{ h1.permalink }}">{{ h1.title }}</a>
+                {% if h1.children %}
+                <ul>
+                    {% for h2 in h1.children %}
+                    <li><a href="{{ h2.permalink }}">{{ h2.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </details>
+    {% endif %}
+
+    <div>
+        {{ page.content | safe }}
+    </div>
+</article>
+</div>
+{% endblock %}

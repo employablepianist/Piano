@@ -1,0 +1,28 @@
+{%- import "macros/translate.html" as macros -%}
+{#- Backlinks — renders pages that link to the current page -#}
+{%- set map = load_data(path="static/backlinks.json", format="json", required=false) -%}
+{%- if map -%}
+  {%- set key = page.path -%}
+  {%- for target, sources in map -%}
+    {%- if target == key and sources | length > 0 -%}
+<style>
+    @scope (.backlinks) {
+        :scope { width: 55%; margin-top: 2rem; padding-top: 0.5rem; font-size: 0.9em; }
+        h3 { font-size: 1rem; color: #999; font-weight: 400; font-style: normal; margin: 0 0 0.3rem; }
+    }
+</style>
+<nav class="backlinks" aria-label="Backlinks">
+  <h3>{{ macros::translate(key="backlinks", default="Backlinks") }}</h3>
+  <ul>
+      {%- for src in sources %}
+      {%- set srcPath = src.path | default(value=src) -%}
+      {%- set srcTitle = src.title | default(value=srcPath) -%}
+      {%- if "/graph/" not in srcPath %}
+    <li><a href="{{ srcPath }}">{{ srcTitle }}</a></li>
+      {%- endif %}
+      {%- endfor %}
+  </ul>
+</nav>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}

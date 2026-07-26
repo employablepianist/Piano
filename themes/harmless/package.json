@@ -1,0 +1,13 @@
+{
+  "name": "zola-harmless",
+  "private": true,
+  "description": "Zola digital garden theme: blog + wiki + backlinks + D3 graph",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test-install": "playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}

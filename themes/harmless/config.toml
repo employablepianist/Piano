@@ -1,0 +1,26 @@
+# config.toml — demo site for zola-4779 theme
+# This is only used when developing/testing the theme standalone.
+# When used as a theme by another site, that site's config.toml applies.
+
+base_url = "http://127.0.0.1:1111"
+title = "4779 Demo"
+description = "Digital garden theme demo — blog, wiki, backlinks, and D3.js link graph"
+
+compile_sass = true
+minify_html = false
+
+[markdown]
+bottom_footnotes = false
+smart_punctuation = true
+github_alerts = true
+
+[extra]
+[extra.layout]
+tufte_css = true
+
+[extra.author]
+name = "Brendan McGrath"
+email = "bmcgrath4@gmail.com"
+
+[extra.graph]
+enabled = true

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock %}
+
+{% block content %}
+<style>
+    @scope (.graph-page) {
+        #graph { display: block; width: calc(100% - 4px); min-height: 600px; border: 1px solid #e0e0e0; border-radius: 4px; margin: 2rem 4px 2rem 0; overflow: hidden; box-sizing: border-box; }
+    }
+</style>
+<div class="graph-page">
+<article>
+  <h1>{{ page.title }}</h1>
+  {{ page.content | safe }}
+
+  <div id="graph"></div>
+
+  <script src="/js/d3.v7.min.js"></script>
+  <script src="/js/graph.js"></script>
+</article>
+</div>
+{% endblock %}
