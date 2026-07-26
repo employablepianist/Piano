@@ -178,6 +178,7 @@
   },
   "active": "a6e70c3beb4758b9",
   "lastOpenFiles": [
+    "themes/harmless/templates/page.html",
     "config.toml.sb-5c4d7d82-XT8O1g",
     "content/p/_index~.md",
     "content/graph~.md",
@@ -213,7 +214,6 @@
     "themes/harmless/content/p/Bio.md",
     "themes/harmless/tests/e2e/wiki.spec.ts",
     "themes/harmless/tests/e2e/responsive.spec.ts",
-    "themes/harmless/tests/e2e/link-colors.spec.ts",
     "themes/harmless/content/w/test-note.md",
     "themes/harmless/content/w/another-note.md",
     "themes/harmless/content/w/_index.md",
