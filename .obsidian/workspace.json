@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bio.md",
+                "file": "docs/Bio.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bio.md",
+                "file": "docs/Bio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bio.md",
+                "file": "docs/Bio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bio.md",
+                "file": "docs/Bio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,8 +183,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "a6e70c3beb4758b9",
+  "active": "3a21f55ed87782b6",
   "lastOpenFiles": [
-    "_Index.md"
+    "docs",
+    "docs/_Index.md"
   ]
 }
