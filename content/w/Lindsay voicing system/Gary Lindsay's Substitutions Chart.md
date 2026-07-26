@@ -1,1 +1,4 @@
-+++ Title = "Gary Lindsay's Substitutions Chart" Date = "2026-07-26" +++
++++ 
+title = "Gary Lindsay's Substitutions Chart" 
+date = "2026-07-26" 
++++
