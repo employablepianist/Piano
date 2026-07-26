@@ -31,9 +31,11 @@ jobs:
 
       - name: Install npm dependencies
         run: npm install
+        working-directory: themes/harmless
 
       - name: Build site
         run: make build
+        working-directory: themes/harmless
 
       - uses: actions/upload-pages-artifact@v3
         with:
