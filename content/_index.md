@@ -7,6 +7,8 @@ sort_by = "date"
 
 My name is Brendan McGrath, welcome to my webpage.
 
+![/Piano/images/Brendan photo 4.jpeg]
+
 ## What you'll find on this site
 
 - [Posts](/Piano/p/) about my background, credentials, and upcoming events.
