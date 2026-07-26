@@ -28,8 +28,7 @@ Receives one beat of sound. The equivalent silence is the quarter rest, which re
 ---
 Examples written out:
 
-![[Basic Rhythms-1.svg]]
-<div class="page-break" style="page-break-before: always;"></div>
+![Basic Rhythms](/Piano/images/Basic_Rhythms-1.svg)
 
 ## Time Signatures
 
@@ -42,9 +41,8 @@ Notice in Mikrokosmos, our first piece, that there is a large "4/4" marking sitt
 The top number of the time signature tells us *how many beats will be in each measure*. In other words, in 4/4, every time you see a measure you can feel sure that there will be four beats in that measure.
 
 The bottom number of the time signature tells us *what type of note constitutes a beat*. In 4/4, the quarter note is the beat, so each measure has four quarter notes (or equivalent). 
-<br/>
 
-> [!More examples]
+> More examples
 > 
 > In 3/4, the quarter note is the beat and we have 3 beats per measure. Therefore we have 3 quarter notes per measure.
 > 
@@ -53,5 +51,3 @@ The bottom number of the time signature tells us *what type of note constitutes 
 > In 3/8, the eighth note is the beat and we have 3 beats per measure. Therefore we have 3 eighth notes per measure.
 > 
 > In 5/8, the eighth note is the beat and we have 5 beats per measure. Therefore we have 5 eighth notes per measure.
-<div class="page-break" style="page-break-before: always;"></div>
-
