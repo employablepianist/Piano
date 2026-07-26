@@ -1,4 +1,7 @@
-+++ Title = "4-note Voicings for ii-V-I Progressions" Date = "2026-07-26" +++
++++ 
+title = "4-note Voicings for ii-V-I Progressions" 
+date = "2026-07-26" 
++++
 
 > [!Workflow]
 >
