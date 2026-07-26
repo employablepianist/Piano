@@ -185,6 +185,7 @@
   },
   "active": "3a21f55ed87782b6",
   "lastOpenFiles": [
+    "themes/harmless/content/p/Bio.md",
     "themes/harmless/tests/e2e/wiki.spec.ts",
     "themes/harmless/tests/e2e/responsive.spec.ts",
     "themes/harmless/tests/e2e/link-colors.spec.ts",
@@ -195,7 +196,6 @@
     "themes/harmless/tests/e2e/accessibility.spec.ts",
     "themes/harmless/templates/shortcodes/marginnote.html",
     "themes/harmless/templates/shortcodes/drawio.html",
-    "themes/harmless/templates/shortcodes/backlinks.html",
     "themes/harmless/content/w/test-note.md",
     "themes/harmless/content/w/another-note.md",
     "themes/harmless/content/w/_index.md",
