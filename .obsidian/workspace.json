@@ -183,8 +183,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "3a21f55ed87782b6",
+  "active": "a6e70c3beb4758b9",
   "lastOpenFiles": [
+    "themes/harmless/content/p/Bio~.md",
     "themes/harmless/content/p/Bio.md",
     "themes/harmless/tests/e2e/wiki.spec.ts",
     "themes/harmless/tests/e2e/responsive.spec.ts",
@@ -224,7 +225,6 @@
     "themes/New Folder With Items/screenshot.png",
     "themes/New Folder With Items/TODO.md",
     "themes/New Folder With Items/README.md",
-    "themes/New Folder With Items/PLAN.md",
     "themes/static/favicon.svg",
     "themes/screenshot.png"
   ]
