@@ -1,12 +1,13 @@
-# Concept - Parlato and Solfege
-<br/>
++++
+title = "Parlato and Solfege"
+date = "2025-03-13"
++++
 
 ## Parlato
 
 Parlato is the speaking of note names in time, briefly ignoring the pitch but retaining the rhythm.
 
 Parlato is a great way for us to make sure we're understanding the progression of notes as we move through a piece. Parlato can use regular note names or solfege note names!
-<br/>
 
 ## Solfege
 
@@ -15,15 +16,12 @@ Solfege is the *singing* of note names in time, retaining both the pitch and rhy
 Solfege is a fantastic method for hearing the notes we're singing. There are two types of solfege, *fixed Do*, and *movable Do*. *Fixed Do* means the notes are sung with the same names all the time, no matter what. In my studio, we sing *fixed Do* using note names.
 
 For my students, I give them the option to use German/Dutch note names (C D E F G, etc.) or French note names (Do Re Mi Fa So, etc.). For myself personally, I like to use German/Dutch note names when singing *fixed Do*, and French note names when singing *movable Do*. 
-<div class="page-break" style="page-break-before: always;"></div>
 
 ## Fixed Do
-<br/>
 
 Here is an example of *fixed Do* using a recognizable piece. The note names below would be sung on the pitches in time:
 
-![[Solfege-1.svg]]
-<br/>
+![Solfege 1](/Piano/images/Solfege-1.svg)
 
 Remember the Dutch/German note names:
 
@@ -36,22 +34,19 @@ Remember the Dutch/German note names:
 | G    | Ges  | Gis   |
 | A    | As   | Ais   |
 | B    | Bes  | Bis   |
-<div class="page-break" style="page-break-before: always;"></div>
 
 ## Movable Do
 <br/>
 
 Here is an example of *movable Do* using the same piece: 
 
-![[Solfege-3.svg]]
-<br/>
+![Solfege 3](/Piano/images/Solfege-3.svg)
 
 The thing that makes it "movable" however, is that we call a different note "Do" depending on what key we're in. In the key of C, C is Do. In the key of G, G is Do. This pattern goes on into all keys. The other notes are given names relative to Do changing as well.
-<br/>
 
 Here is an example of the same piece in the key of G, solfege moved around:
 
-![[Solfege-5.svg]]
+![Solfege 5](/Piano/images/Solfege-5.svg)
 
 | Note | Flat | Sharp |
 | ---- | ---- | ----- |
@@ -62,12 +57,10 @@ Here is an example of the same piece in the key of G, solfege moved around:
 | So   | Se   | So    |
 | La   | Le   | Li    |
 | Ti   | Te   | -     |
-<br/>
 
 
-> [!Exercises]
+> Exercises
 > 
 > 1. Sing through as much of your repertoire as you can using both movable and fixed do.
 > 
 > 2. Improvise melodies using movable and fixed do.
-<div class="page-break" style="page-break-before: always;"></div>
