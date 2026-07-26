@@ -1,5 +1,4 @@
 +++
-
 # Bio
 
 Brendan McGrath is a professional pianist, composer, and teacher from Amiskwaciwâskahikan, so-called Edmonton, Alberta, on Treaty 6 territory in Canada. As a player McGrath focuses on improvisation, primarily performing and recording as a solo improvising pianist, leader of a jazz piano trio, and interpreter of J.S. Bach.
