@@ -1,0 +1,18 @@
+base_url = "https://employablepianist.github.io/Piano"
+title = "Piano"
+theme = "harmless"
+
+compile_sass = true
+generate_feeds = true
+
+[extra]
+
+[extra.author]
+name = "Brendan McGrath"
+email = "bmcgrath4@gmail.com"
+
+[extra.layout]
+tufte_css = true
+
+[extra.graph]
+enabled = true
