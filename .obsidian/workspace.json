@@ -178,6 +178,7 @@
   },
   "active": "a6e70c3beb4758b9",
   "lastOpenFiles": [
+    "content/graph~.md",
     "content/_index~.md",
     "themes/harmless/config.toml.sb-5c4d7d82-zL9sJ8",
     "config.toml.sb-5c4d7d82-NE11tp",
@@ -222,7 +223,6 @@
     "themes/harmless/content/graph.md",
     "themes/harmless/content/_index.md",
     "themes/harmless/README.md",
-    "themes/harmless/TODO.md",
-    "themes/harmless/PLAN.md"
+    "themes/harmless/TODO.md"
   ]
 }
