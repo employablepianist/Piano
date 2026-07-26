@@ -18,4 +18,4 @@ functional design focused on *digital gardens* and personal notes.
 - **Backlinks** — automatically collected links on each page
 - **Full Markdown support** — tables, footnotes, code, images
 
-Start with the [Blog](/p/) section or jump straight to [wiki notes](/w/).
+Start with the [Blog](/piano/p/) section or jump straight to [wiki notes](/piano/w/).

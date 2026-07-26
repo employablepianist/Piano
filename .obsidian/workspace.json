@@ -178,6 +178,9 @@
   },
   "active": "a6e70c3beb4758b9",
   "lastOpenFiles": [
+    "content/_index~.md",
+    "themes/harmless/config.toml.sb-5c4d7d82-zL9sJ8",
+    "config.toml.sb-5c4d7d82-NE11tp",
     "content/w/_index~.md",
     "content/p/_index~.md",
     "content/w/_index.md",
@@ -209,8 +212,6 @@
     "themes/harmless/tests/e2e/wiki.spec.ts",
     "themes/harmless/tests/e2e/responsive.spec.ts",
     "themes/harmless/tests/e2e/link-colors.spec.ts",
-    "themes/harmless/tests/e2e/homepage.spec.ts",
-    "themes/harmless/tests/e2e/graph.spec.ts",
     "themes/harmless/content/w/test-note.md",
     "themes/harmless/content/w/another-note.md",
     "themes/harmless/content/w/_index.md",
@@ -222,7 +223,6 @@
     "themes/harmless/content/_index.md",
     "themes/harmless/README.md",
     "themes/harmless/TODO.md",
-    "themes/harmless/PLAN.md",
-    "themes/harmless/AGENTS.md"
+    "themes/harmless/PLAN.md"
   ]
 }
