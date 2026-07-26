@@ -1,10 +1,10 @@
 <header class="site-header">
     <nav>
-        <a href="/">~/</a>
-        <a href="/p/">{{ macros::translate(key="blog", default="blog") }}</a>
-        <a href="/w/">{{ macros::translate(key="notes", default="notes") }}</a>
-        <a href="/graph/">{{ macros::translate(key="graph", default="graph") }}</a>
-        <a href="/p/atom.xml" title="RSS">
+        <a href="{{ get_url(path="/") }}">~/</a>
+        <a href="{{ get_url(path="p/") }}">{{ macros::translate(key="blog", default="blog") }}</a>
+        <a href="{{ get_url(path="w/") }}">{{ macros::translate(key="notes", default="notes") }}</a>
+        <a href="{{ get_url(path="graph/") }}">{{ macros::translate(key="graph", default="graph") }}</a>
+        <a href="{{ get_url(path="p/atom.xml") }}" title="RSS">
             <svg xmlns="http://www.w3.org/2000/svg" width="0.9em" height="0.9em" style="vertical-align:middle;margin-right:0.15em" viewBox="0 0 8 8">
                 <rect width="8" height="8" rx="1.5" style="stroke:none;fill:#fe6500"/>
                 <circle cx="2" cy="6" r="1" style="stroke:none;fill:#fff"/>
