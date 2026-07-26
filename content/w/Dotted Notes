@@ -1,4 +1,7 @@
-# Concept - Dotted Notes
++++
+title = "Dotted Notes"
+date = "2025-03-11"
++++
 ## Adding Value to a Note
 
 When we add a dot to a note, we increase that note's value by half of it's original length.
@@ -9,19 +12,13 @@ When we add a dot to a note, we increase that note's value by half of it's origi
 | Half note    | 2                        | 1                              | 3                                     |
 | Quarter note | 1                        | .5                             | 1.5                                   |
 | Eighth note  | .5                       | .25                            | .75                                   |
-<br/>
 
 Technically, every dotted note could be written as a tied note. Most of the time the composer just wants something a little cleaner looking, and a dot is a great short hand.
-<br/>
 
 For example, these two measures are identical:
-<br/>
 
-![[Dotted Notes-1.svg]]
-<br/>
+![Dotted notes](/Piano/images/Dotted_Notes-1.svg)
 
 And these two measures are also identical:
-<br/>
 
-![[Dotted Notes-2 1.svg]]
-<div class="page-break" style="page-break-before: always;"></div>
+![Dotted notes 2](/Piano/images/Dotted_Notes-2_1.svg)
