@@ -1,15 +1,14 @@
 {
   "main": {
-    "id": "989ef14d73875e17",
+    "id": "b23fb3edc9ad692f",
     "type": "split",
     "children": [
       {
-        "id": "04686f94c0e989e7",
+        "id": "a4a9f15596e761ec",
         "type": "tabs",
-        "dimension": 70.58823529411765,
         "children": [
           {
-            "id": "6927b66ff8140b79",
+            "id": "a6e70c3beb4758b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,38 +20,6 @@
               "icon": "lucide-file",
               "title": "Bio"
             }
-          },
-          {
-            "id": "b8cc4f0ad32c8b46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_Index"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "71bb9e1bdac9c4d3",
-        "type": "tabs",
-        "dimension": 29.411764705882355,
-        "children": [
-          {
-            "id": "3d4fe091551965d9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
         ]
       }
@@ -60,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d35249226d15e411",
+    "id": "0e89cc897a5c4985",
     "type": "split",
     "children": [
       {
-        "id": "b77eaeeb205f666e",
+        "id": "1ce0b6c29321a533",
         "type": "tabs",
         "children": [
           {
-            "id": "1179ac9cd53854c7",
+            "id": "3a21f55ed87782b6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -81,7 +48,7 @@
             }
           },
           {
-            "id": "b8ef3c4098bef329",
+            "id": "f2f1e2396274ba58",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -98,7 +65,7 @@
             }
           },
           {
-            "id": "d7218e57ec1f8f09",
+            "id": "086ecd4a0e0fbc7b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -114,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "8c6266af0147b29c",
+    "id": "c4dc332357a362e2",
     "type": "split",
     "children": [
       {
-        "id": "fd3173048d49010a",
+        "id": "eeae9abf1c7181a5",
         "type": "tabs",
         "children": [
           {
-            "id": "7d9fe65e584a7667",
+            "id": "38438182662ba156",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Index.md",
+                "file": "Bio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _Index"
+              "title": "Backlinks for Bio"
             }
           },
           {
-            "id": "55a73e2d5e65e907",
+            "id": "efdb843bf96d859e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Index.md",
+                "file": "Bio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _Index"
+              "title": "Outgoing links from Bio"
             }
           },
           {
-            "id": "7255754edfd5a2f2",
+            "id": "a15ba49ee124c691",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -170,7 +137,7 @@
             }
           },
           {
-            "id": "85c6c971f397891d",
+            "id": "0a1f34f3fc564423",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -184,18 +151,18 @@
             }
           },
           {
-            "id": "0d8e65fac2603d14",
+            "id": "3f3b07ad9ea87fee",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Index.md",
+                "file": "Bio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _Index"
+              "title": "Outline of Bio"
             }
           }
         ]
@@ -216,10 +183,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "b8cc4f0ad32c8b46",
+  "active": "a6e70c3beb4758b9",
   "lastOpenFiles": [
-    "Bio.md",
-    "_Index.md",
-    "Welcome.md"
+    "_Index.md"
   ]
 }
