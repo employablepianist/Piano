@@ -3,7 +3,7 @@ title = "4-note Voicings for ii-V-I Progressions"
 date = "2026-07-26" 
 +++
 
-> [!Workflow]
+>  Workflow
 >
 > 1. Find a basic, unsubstituted closed voicing.
 > 2. Substitute notes from categories R and 5 to taste.
@@ -18,8 +18,7 @@ There are only four possible (unsubstituted) closed voicing pathways for a ii-V-
 Top voice plays R-5-R.
 <br/>
 
-Ex. 1
-![[ii-V-Is-1.svg]]
+![Ex. 1](ii-V-Is-1.svg)
 <br/>
 
 ## Pathway 2
