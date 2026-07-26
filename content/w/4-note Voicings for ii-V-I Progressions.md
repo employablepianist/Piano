@@ -18,7 +18,7 @@ There are only four possible (unsubstituted) closed voicing pathways for a ii-V-
 Top voice plays R-5-R.
 <br/>
 
-![Ex. 1](/images/ii-V-Is-1.svg)
+![Ex. 1](/Piano/images/ii-V-Is-1.svg)
 <br/>
 
 ## Pathway 2
