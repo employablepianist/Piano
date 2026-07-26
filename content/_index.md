@@ -7,7 +7,7 @@ sort_by = "date"
 
 My name is Brendan McGrath, welcome to my webpage.
 
-![Brendan photo 4.jpeg]
+!(Brendan photo 4.jpeg)
 
 ## What you'll find on this site
 
