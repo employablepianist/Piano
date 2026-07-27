@@ -1,5 +1,5 @@
 +++
-title = "Concept - First Note at the Piano"
+title = "Concept - First Notes at the Piano"
 date = "2025-03-17"
 +++
 ## Visually Mapping the Piano
@@ -10,7 +10,7 @@ The piano is divided up visually by alternating sets of black keys. Notice that 
 
 ## Finding C and F
 
-To the direct left of every group of two black keys is the note “C”. This diagram directs you to play C with [finger 1, the thumb](/w/Fingering). However, play the note with all fingers and with both hands.
+To the direct left of every group of two black keys is the note “C”. This diagram directs you to play C with [finger 1, the thumb](/Piano/w/Fingering). However, play the note with all fingers and with both hands.
 
 ![1 on C](/Piano/images/1_on_C.svg)
 
