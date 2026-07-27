@@ -6,7 +6,7 @@ date = 2025-03-25
 
 Everything in 2 octaves
 # C
-*Rule for C: If any other finger is playing, thumb should be hovering off of the keytops*
+*Rule for C: If any other [finger](/Piano/w/fingering) is playing, thumb should be hovering off of the keytops*
 
 (By off I actually mean totally "out" of the white key area, not touching a key)
 
