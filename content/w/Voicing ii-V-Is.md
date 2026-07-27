@@ -70,7 +70,7 @@ Rootless Pattern A:
 	V - (3 7) (9 13)
 	I - (7/6 3) (13 9) 
 
-{note, LH should play 7, not 6, if RH is playing 13)
+(note, LH should play 7, not 6, if RH is playing 13)
 
 Rootless Pattern B:
 
