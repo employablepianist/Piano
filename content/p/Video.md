@@ -7,4 +7,4 @@ With Erin Selin:
 
 Richard Strauss - Drei Lieder der Ophelia op. 67, no. 3, Sie trugen ihn auf der bahre bloß
 
-<iframe width="100%" height="400" src="https://www.youtube.com/watch?v=gGhNClyYHog" title="Richard Strauss - Drei Lieder der Ophelia op. 67, no. 3, Sie trugen ihn auf der bahre bloß" frameborder="0" allowfullscreen></iframe>
+![Strauss](/Piano/images/Richard_Strauss-Drei_Lieder_der_Ophelia_op.67+no.3-Sie_trugen_ihn_auf_der_bahre_bloß.mp4)
