@@ -1,13 +1,5 @@
 <footer class="site-footer">
-    {%- set build = load_data(path="static/build.json", format="json", required=false) -%}
     🤙 <a href="mailto:{{ config.extra.author.email | default(value='e@4779.ru') }}">
         mailto: {{ config.extra.author.email | default(value='e@4779.ru') }}
     </a>
-    {%- if build and build.hash -%}
-    <span style="float: right; font-size: 0.85em; color: #aaa; margin-right: 1.2rem;">
-        <a href="https://gitverse.ru/e4779/4779_ru/commit/{{ build.hash }}" style="color: inherit;">
-            {{ build.hash }}
-        </a>
-    </span>
-    {%- endif -%}
 </footer>

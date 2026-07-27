@@ -1,9 +1,12 @@
 <header class="site-header">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">&#9776;</label>
     <nav>
-        <a href="{{ get_url(path="/") }}">~/</a>
+        <a href="{{ get_url(path="/") }}">{{ macros::translate(key="home", default="home") }}</a>
+        <a href="{{ get_url(path="bio/") }}">{{ macros::translate(key="bio", default="bio") }}</a>
         <a href="{{ get_url(path="p/") }}">{{ macros::translate(key="posts", default="posts") }}</a>
         <a href="{{ get_url(path="w/") }}">{{ macros::translate(key="notes", default="notes") }}</a>
         <a href="{{ get_url(path="graph/") }}">{{ macros::translate(key="graph", default="graph") }}</a>
-        </a>
+        <a href="{{ get_url(path="contact/") }}">{{ macros::translate(key="contact", default="contact") }}</a>
     </nav>
 </header>

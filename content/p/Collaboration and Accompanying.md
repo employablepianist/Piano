@@ -22,18 +22,15 @@ date = "2026-07-20"
 
 - Prepared embellishments for [*Doux liens de mon cœur* by François Couperin.](https://www.cpdl.org/wiki/index.php/Doux_liens_(Fran%C3%A7ois_Couperin))
     - Preview:
-      
-        ![Doux Liens](/Piano/images/Doux_liens_sample.png)
+      <img src="/Piano/images/Doux_liens_sample.png" alt="Doux liens sample" width="786px" height="350px">
         
     
-    File:
+    PDF:
     
     [Doux liens de mon cœur embellishments.pdf](/Piano/images/Doux_liens_de_mon_cur_with_embellishments.pdf)
     
 - Transcription and Transposition of *No Matter What Happens* by Michel Legrand.
-  
-    ![No Matter What Happens](/Piano/images/No_Matter_What_Happens.png)
+  <img src="/Piano/images/No_Matter_What_Happens.png" alt="No Matter What Happens sample" width="786px" height="350px">
     
 - Commission for Inés Dominguez del Corral
-  
-    ![The Light](/Piano/images/The_Light.png)
+  <img src="/Piano/images/The_Light.png" alt="The Light sample" width="669px" height="350px">
