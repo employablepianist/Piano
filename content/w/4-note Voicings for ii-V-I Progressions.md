@@ -76,3 +76,5 @@ Let's take the voicings from step 2 and octave displace some of their chords ton
 <br/>
 
 ![Ex. 10 (Ex. 7 with drop 2 voicings)](/Piano/images/ii-V-Is-10.png)
+
+[Find possible 4-note voicings here](/Piano/images/Thesaurus_of_ii-V-I_voicings.pdf)
