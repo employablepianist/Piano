@@ -7,13 +7,12 @@ My own solo recordings, mostly improvisations, can be found [here](https://brend
 
 <iframe style="border: 0; width: 400px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3172396446/size=large/bgcol=fffff7/linkcol=0e0e0e/artwork=small/transparent=true/" seamless><a href="https://brendanmcgrath.bandcamp.com/album/4-improvisations-february-21-2022">4 Improvisations February 21 2022 by Brendan McGrath</a></iframe>
 
-It was an honour to record on [Aretha Tillotson's debut album](https://arethatillotson.bandcamp.com/album/introducing-aretha-tillotson). I greatly enjoyed playing her compositions. 
+It was an honour to record on [Aretha Tillotson's debut album](https://arethatillotson.bandcamp.com/album/introducing-aretha-tillotson). I greatly enjoyed playing her compositions. I'm proud to say I also did copying work for her Juno nominated album [Kinda Out West](https://arethatillotson.bandcamp.com/album/kinda-out-west). This record is excellent, I'm honoured to have played a small part in it.
 
 <iframe style="border: 0; width: 400px; height: 406px;" src="https://bandcamp.com/EmbeddedPlayer/album=1008545734/size=large/bgcol=fffff7/linkcol=0e0e0e/artwork=small/transparent=true/" seamless><a href="https://arethatillotson.bandcamp.com/album/introducing-aretha-tillotson">Introducing Aretha Tillotson by Aretha Tillotson</a></iframe>
 
-I'm proud to say I also did copying work for her Juno nominated album [Kinda Out West](https://arethatillotson.bandcamp.com/album/kinda-out-west). This record is excellent, I'm glad to have played a small part in it.
-
 <iframe style="border: 0; width: 400px; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=333845678/size=large/bgcol=fffff7/linkcol=0e0e0e/artwork=small/transparent=true/" seamless><a href="https://arethatillotson.bandcamp.com/album/kinda-out-west">Kinda Out West by Aretha Tillotson</a></iframe>
+
 
 I was also thrilled to record on drummer/composer [Joel Jeschke's debut](https://joeljeschke.bandcamp.com/album/time-place), an album that was a long time in the making.
 
