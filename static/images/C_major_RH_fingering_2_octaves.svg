@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 631 166" font-family="IBM Plex Mono, monospace">
+<rect width="631" height="166" fill="#ffffff"/>
+<rect x="8" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="28" y="150" font-size="9" fill="#888" text-anchor="middle" font-weight="600">C4</text>
+<rect x="49" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="69" y="150" font-size="8" fill="#999" text-anchor="middle">D</text>
+<rect x="90" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="110" y="150" font-size="8" fill="#999" text-anchor="middle">E</text>
+<rect x="131" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="151" y="150" font-size="8" fill="#999" text-anchor="middle">F</text>
+<rect x="172" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="192" y="150" font-size="8" fill="#999" text-anchor="middle">G</text>
+<rect x="213" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="233" y="150" font-size="8" fill="#999" text-anchor="middle">A</text>
+<rect x="254" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="274" y="150" font-size="8" fill="#999" text-anchor="middle">B</text>
+<rect x="295" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="315" y="150" font-size="9" fill="#888" text-anchor="middle" font-weight="600">C5</text>
+<rect x="336" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="356" y="150" font-size="8" fill="#999" text-anchor="middle">D</text>
+<rect x="377" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="397" y="150" font-size="8" fill="#999" text-anchor="middle">E</text>
+<rect x="418" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="438" y="150" font-size="8" fill="#999" text-anchor="middle">F</text>
+<rect x="459" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="479" y="150" font-size="8" fill="#999" text-anchor="middle">G</text>
+<rect x="500" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="520" y="150" font-size="8" fill="#999" text-anchor="middle">A</text>
+<rect x="541" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="561" y="150" font-size="8" fill="#999" text-anchor="middle">B</text>
+<rect x="582" y="8" width="40" height="150" fill="#f8f6f2" stroke="#bbbbbb" stroke-width="1" rx="3" ry="3"/>
+<text x="602" y="150" font-size="9" fill="#888" text-anchor="middle" font-weight="600">C6</text>
+<rect x="35" y="8" width="24" height="96" fill="#1a1a22" stroke="#000000" stroke-width="1" rx="2" ry="2"/>
+<rect x="76" y="8" width="24" height="96" fill="#1a1a22" stroke="#000000" stroke-width="1" rx="2" ry="2"/>
+<rect x="158" y="8" width="24" height="96" fill="#1a1a22" stroke="#000000" stroke-width="1" rx="2" ry="2"/>
+<rect x="199" y="8" width="24" height="96" fill="#1a1a22" stroke="#000000" stroke-width="1" rx="2" ry="2"/>
+<rect x="240" y="8" width="24" height="96" fill="#1a1a22" stroke="#000000" stroke-width="1" rx="2" ry="2"/>
+<rect x="322" y="8" width="24" height="96" fill="#1a1a22" stroke="#000000" stroke-width="1" rx="2" ry="2"/>
+<rect x="363" y="8" width="24" height="96" fill="#1a1a22" stroke="#000000" stroke-width="1" rx="2" ry="2"/>
+<rect x="445" y="8" width="24" height="96" fill="#1a1a22" stroke="#000000" stroke-width="1" rx="2" ry="2"/>
+<rect x="486" y="8" width="24" height="96" fill="#1a1a22" stroke="#000000" stroke-width="1" rx="2" ry="2"/>
+<rect x="527" y="8" width="24" height="96" fill="#1a1a22" stroke="#000000" stroke-width="1" rx="2" ry="2"/>
+<rect x="20" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="28" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<rect x="61" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="69" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<rect x="102" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="110" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<rect x="143" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="151" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<rect x="184" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="192" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<rect x="225" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="233" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<rect x="266" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="274" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">4</text>
+<rect x="307" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="315" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<rect x="348" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="356" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<rect x="389" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="397" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<rect x="430" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="438" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<rect x="471" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="479" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<rect x="512" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="520" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<rect x="553" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="561" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">4</text>
+<rect x="594" y="124" width="16" height="14" rx="3" ry="3" fill="#1a6e3c"/>
+<text x="602" y="134.15" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">5</text>
+</svg>
