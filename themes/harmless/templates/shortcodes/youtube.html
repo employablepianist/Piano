@@ -1,0 +1,9 @@
+{#- youtube.html — responsive 16:9 YouTube embed (see iframe[width] rules in base.html for the responsive CSS).
+    Usage: {{/* youtube(url="https://www.youtube.com/watch?v=gGhNClyYHog") */}}
+        or {{/* youtube(url="https://youtu.be/gGhNClyYHog", title="YouTube video player") */}} -#}
+{%- if url is containing("v=") -%}
+    {%- set id = url | split(pat="v=") | last | split(pat="&") | first -%}
+{%- else -%}
+    {%- set id = url | split(pat="youtu.be/") | last | split(pat="?") | first -%}
+{%- endif -%}
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/{{ id }}" title="{{ title | default(value="YouTube video player") }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

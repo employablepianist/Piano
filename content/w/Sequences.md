@@ -34,4 +34,4 @@ Same here on sequence B, this time with B-flat *replacing* B-natural.
 
 To create digestible variations for sequences A and B, start by playing each cell descending instead of ascending. You may also wish to move the sequence downwards instead of upwards.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/saGkHban4iU?si=H6dg6-3oJHkYR8sd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{ youtube(url="https://www.youtube.com/watch?v=saGkHban4iU") }}
