@@ -22,7 +22,7 @@ Pattern B:
 	V - (R 7) (3 5 1)
 	I - (R 3) (7/6 R 5)
 
-# 1 7 and 1 3 shells become SATB
+# 1-7 and 1-3 shells become SATB
 
 You may have noticed in the left hand we'll often be playing 1 7 and 1 3 shells. We can convert these voicings into rootless voicings by taking the lowest note of the right hand and putting it into the left hand.
 
