@@ -32,7 +32,7 @@ A great way to learn western notational rhythms is to write them out as Konnakol
 
 One thing I love to do is to write a Konnakol rhythm out and underline the rhythmic attacks. Then I like to speak the Konnakol out loud while I clap the underlines syllables.
 
-Try it here on half-notes:
+Try it here on [half-notes](/Piano/w/First Rhythms at the Piano, Time Signatures):
 
 
 <u>Ta</u> ka <u>di</u> mi || <u>Ta</u> ka <u>di</u> mi
