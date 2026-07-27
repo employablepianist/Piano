@@ -64,6 +64,10 @@
             pre { background: #252530; }
             th, td { border-color: #333; } th { background: #252530; }
             hr { border-color: #333; }
+            /* Diagrams/notation exported with a transparent or white background go illegible
+               (black lines on the dark page). A light backing behind every img is a no-op for
+               fully-opaque images (photos, posters) since there's no transparency to show through. */
+            img { background: #fffff8; }
         }
     </style>
     <style>
