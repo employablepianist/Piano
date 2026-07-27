@@ -25,7 +25,6 @@ Notice that sharps and flats retain the *note name* of the note they're replacin
 Examples:
 
 1. Every F labelled with "1", every F# labelled with "2":
-<br/>
 
 ![F and F#](/Piano/images/F_and_F.svg)
 
