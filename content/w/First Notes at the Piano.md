@@ -1,5 +1,5 @@
 +++
-title = "Concept - First Notes at the Piano"
+title = "First Notes at the Piano"
 date = "2025-03-17"
 +++
 ## Visually Mapping the Piano
