@@ -14,3 +14,8 @@ My name is Brendan McGrath, welcome to my webpage.
 - [Posts](/Piano/p/) about my background, credentials, and upcoming events.
 - [Notes and documents](/Piano/w/) about piano playing and music making.
 
+## Contact Me
+
+Email: bmcgrath4@gmail.com
+WhatsApp: +31 6 82007936
+Signal: @employablepianist.51
