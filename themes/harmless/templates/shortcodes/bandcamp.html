@@ -1,3 +1,3 @@
 {#- bandcamp.html — Bandcamp album embed, standardized on size=large/bgcol=fffff7 (matches site background)/linkcol=0e0e0e/artwork=small.
     Usage: {{/* bandcamp(album="3172396446", url="https://x.bandcamp.com/album/y", title="Album by Artist", height=300) */}} -#}
-<iframe loading="lazy" style="border: 0; width: 400px; height: {{ height | default(value=400) }}px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ album }}/size=large/bgcol=fffff7/linkcol=0e0e0e/artwork=small/transparent=true/"><a href="{{ url }}">{{ title }}</a></iframe>
+<iframe style="border: 0; width: 400px; height: {{ height | default(value=400) }}px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ album }}/size=large/bgcol=fffff7/linkcol=0e0e0e/artwork=small/transparent=true/"><a href="{{ url }}">{{ title }}</a></iframe>
