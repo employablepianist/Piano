@@ -1,9 +1,11 @@
 <header class="site-header">
     <nav>
-        <a href="{{ get_url(path="/") }}">~/</a>
+        <a href="{{ get_url(path="/") }}">{{ macros::translate(key="home", default="home") }}</a>
+        <a href="{{ get_url(path="bio/") }}">{{ macros::translate(key="bio", default="bio") }}</a>
         <a href="{{ get_url(path="p/") }}">{{ macros::translate(key="posts", default="posts") }}</a>
         <a href="{{ get_url(path="w/") }}">{{ macros::translate(key="notes", default="notes") }}</a>
         <a href="{{ get_url(path="graph/") }}">{{ macros::translate(key="graph", default="graph") }}</a>
+        <a href="{{ get_url(path="contact/") }}">{{ macros::translate(key="contact", default="contact") }}</a>
         </a>
     </nav>
 </header>
