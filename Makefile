@@ -16,7 +16,15 @@ zola:
 	else \
 		echo "[...] Installing zola $(ZOLA_VERSION)"; \
 		mkdir -p $(BIN_DIR); \
-		curl -sL "https://github.com/getzola/zola/releases/download/v$(ZOLA_VERSION)/zola-v$(ZOLA_VERSION)-x86_64-unknown-linux-gnu.tar.gz" | tar xz -C $(BIN_DIR)/; \
+		os=$$(uname -s); arch=$$(uname -m); \
+		case "$$os-$$arch" in \
+			Darwin-arm64) target=aarch64-apple-darwin ;; \
+			Darwin-x86_64) target=x86_64-apple-darwin ;; \
+			Linux-x86_64) target=x86_64-unknown-linux-gnu ;; \
+			Linux-aarch64) target=aarch64-unknown-linux-gnu ;; \
+			*) echo "[ERR] Unsupported platform: $$os $$arch" >&2; exit 1 ;; \
+		esac; \
+		curl -sL "https://github.com/getzola/zola/releases/download/v$(ZOLA_VERSION)/zola-v$(ZOLA_VERSION)-$$target.tar.gz" | tar xz -C $(BIN_DIR)/; \
 	fi
 
 node-deps:

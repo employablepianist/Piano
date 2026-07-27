@@ -12,6 +12,14 @@ const path = require('path');
 const PUBLIC_DIR = path.join(process.cwd(), 'public');
 const OUT_FILE = path.join(PUBLIC_DIR, 'backlinks.json');
 
+// Base path component of base_url (e.g. "/Piano" on GitHub Pages, "" at domain root),
+// so source URLs (derived from file paths) line up with target URLs (derived from
+// hrefs, which already include this prefix since Zola bakes it into rendered links).
+const configToml = fs.readFileSync(path.join(process.cwd(), 'config.toml'), 'utf-8');
+const baseUrlMatch = configToml.match(/^base_url\s*=\s*"([^"]+)"/m);
+if (!baseUrlMatch) throw new Error('base_url not found in config.toml');
+const BASE_PATH = new URL(baseUrlMatch[1]).pathname.replace(/\/$/, '');
+
 // Collect all .html files recursively
 function walk(dir) {
   const files = [];
@@ -37,8 +45,9 @@ function filePathToUrl(filePath) {
     rel = rel.replace(/\.html$/, '');
   }
   if (rel === '.') rel = '';
-  const url = '/' + rel.replace(/\\/g, '/').replace(/\/$/, '');
-  return url + (url === '/' ? '' : '/');
+  const relUrl = rel.replace(/\\/g, '/').replace(/\/$/, '');
+  const url = BASE_PATH + '/' + relUrl;
+  return url + (url.endsWith('/') ? '' : '/');
 }
 
 // Normalize an href to a canonical page URL.

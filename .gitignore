@@ -1,0 +1,18 @@
+# Build output
+public/
+.zola/
+
+# Generated at build time (scripts/build-backlinks.js, scripts/build-sitemap.js, commit-hash target)
+static/backlinks.json
+static/build.json
+
+# Dependencies
+node_modules/
+
+# OS cruft
+.DS_Store
+
+# Editor swap/backup files
+*.swp
+*.swo
+*~
