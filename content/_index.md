@@ -17,5 +17,7 @@ My name is Brendan McGrath, welcome to my webpage.
 ## Contact Me
 
 Email: bmcgrath4@gmail.com
+
 WhatsApp: +31 6 82007936
+
 Signal: @employablepianist.51
