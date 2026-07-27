@@ -2,7 +2,11 @@
 const fs = require('fs');
 const path = require('path');
 const dir = path.join(process.cwd(), 'public');
-const BASE = 'https://4779.ru';
+
+const configToml = fs.readFileSync(path.join(process.cwd(), 'config.toml'), 'utf-8');
+const baseUrlMatch = configToml.match(/^base_url\s*=\s*"([^"]+)"/m);
+if (!baseUrlMatch) throw new Error('base_url not found in config.toml');
+const BASE = baseUrlMatch[1].replace(/\/$/, '');
 
 function walk(d) {
   const f = [];
