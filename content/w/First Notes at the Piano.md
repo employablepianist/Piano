@@ -11,7 +11,7 @@ The piano is divided up visually by alternating sets of black keys. Notice that 
 
 ## Finding C and F
 
-To the direct left of every group of two black keys is the note “C”. This diagram directs you to play C with [finger 1, the thumb](/Piano/w/3-fingering). However, play the note with all fingers and with both hands.
+To the direct left of every group of two black keys is the note “C”. This diagram directs you to play C with [finger 1, the thumb](/Piano/w/fingering). However, play the note with all fingers and with both hands.
 
 ![1 on C](/Piano/images/1_on_C.svg)
 
