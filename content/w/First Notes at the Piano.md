@@ -1,6 +1,6 @@
 +++
 title = "First Notes at the Piano"
-weight = "3"
+weight = "2"
 +++
 ## Visually Mapping the Piano
 
