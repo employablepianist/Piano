@@ -13,7 +13,7 @@ Like pentascales, full scales can be played ascending, descending, contrary moti
 
 ---
 
-Right hand fingering for one octave:
+Right hand [fingering](/Piano/w/fingering) for one octave:
 
 ![C major RH](/Piano/images/C major_RH_fingering_1.svg)
 
