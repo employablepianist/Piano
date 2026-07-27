@@ -1,9 +1,16 @@
 // Site graph — D3.js force simulation
 // Nodes from sitemap.xml, edges from backlinks.json
 
+// Base path this site is actually served under (e.g. "/Piano/" on GitHub
+// Pages, "/" at a domain root or local dev) — read from a value the graph.html
+// template bakes in via config.base_url, since a plain static .js file has no
+// way to know its own deployment path otherwise.
+let dataBase = new URL(window.__BASE_URL__).pathname;
+if (!dataBase.endsWith('/')) dataBase += '/';
+
 Promise.all([
-  fetch('/sitemap.xml').then(r => r.text()),
-  fetch('/backlinks.json').then(r => r.json())
+  fetch(dataBase + 'sitemap.xml').then(r => r.text()),
+  fetch(dataBase + 'backlinks.json').then(r => r.json())
 ]).then(([sitemapXml, backlinks]) => {
   // Parse sitemap: extract URLs and titles from <loc> tags
   const parser = new DOMParser();

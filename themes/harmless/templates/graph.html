@@ -15,6 +15,7 @@
 
   <div id="graph"></div>
 
+  <script>window.__BASE_URL__ = {{ config.base_url | json_encode | safe }};</script>
   <script src="{{ get_url(path='js/d3.v7.min.js') }}"></script>
   <script src="{{ get_url(path='js/graph.js') }}"></script>
 </article>
